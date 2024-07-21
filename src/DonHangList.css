@@ -1,0 +1,32 @@
+/* DonHangList.css */
+
+.don-hang-list-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.don-hang-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.don-hang-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.don-hang-item p {
+  margin: 5px 0;
+}
+
+.don-hang-item p strong {
+  margin-right: 5px;
+}

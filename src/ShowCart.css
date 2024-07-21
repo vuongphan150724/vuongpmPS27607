@@ -1,0 +1,95 @@
+#giohang {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#giohang h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#giohang table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#giohang th, #giohang td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+#giohang th {
+  background-color: #f1f1f1;
+}
+
+#giohang img {
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+#giohang .product-name {
+  font-size: 14px;
+}
+
+#giohang input[type="number"] {
+  width: 60px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#giohang a {
+  color: #ff4d4d;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#giohang a:hover {
+  text-decoration: underline;
+}
+
+.total {
+  font-weight: bold;
+  text-align: right;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.actions {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.checkout-button, .clear-cart-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.clear-cart-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.checkout-button:hover {
+  background-color: #218838;
+}
+
+.clear-cart-button:hover {
+  background-color: #c82333;
+}

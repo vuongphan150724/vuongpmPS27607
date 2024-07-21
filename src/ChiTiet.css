@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chitiet {
+  padding: 20px;
+  background: #fff5ee;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trai {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.trai img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.phai {
+  flex: 2;
+  min-width: 300px;
+}
+
+.phai .h3 {
+  font-size: 24px;
+  color: #ff4500;
+  margin-bottom: 10px;
+}
+
+.phai p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.phai p span {
+  font-weight: bold;
+}
+
+.row2 {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 20px;
+  color: #ff4500;
+}
+.container {
+    margin: 20px;
+}
+
+.chitiet .row1 {
+    display: flex;
+}
+
+.chitiet .trai img {
+    max-width: 100%;
+    height: auto;
+}
+
+.chitiet .phai {
+    margin-left: 20px;
+}
+
+.sanpham-lienquan {
+    margin-top: 40px;
+}
+
+.related-products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.related-products .sp {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+.sp-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}

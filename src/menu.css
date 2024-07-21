@@ -1,0 +1,95 @@
+/* Reset styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  background-color: #ff4500; /* Màu nền thanh menu */
+  color: white;
+  text-align: center; /* Căn giữa nội dung */
+  padding: 10px 0; /* Khoảng cách padding */
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu > li {
+  position: relative; /* Để có thể sử dụng position: absolute cho dropdown */
+  margin: 0 15px;
+}
+
+.nav-menu > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block; /* Hiển thị theo dòng khối */
+  padding: 10px 15px; /* Khoảng cách trong */
+}
+
+.nav-menu > li > a:hover {
+  background-color: #ffb6c1; /* Màu nền khi hover */
+  color: #fff; /* Màu chữ khi hover */
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f0f0f0; /* Màu nền của dropdown */
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li {
+  padding: 8px 16px;
+}
+
+.dropdown-content li a {
+  color: #333; /* Màu chữ */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li a:hover {
+  background-color: #ff4500; /* Màu nền khi hover */
+  color: white; /* Màu chữ khi hover */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffb6c1; /* Màu nền của nút khi hover */
+}
